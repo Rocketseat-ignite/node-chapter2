@@ -7,4 +7,4 @@ app.use(express.json())
 
 app.use('/categories', CategoriesRoutes)
 
-app.listen(3000, () => console.log('Server running'))
+app.listen(3000, () => console.log('Server running on: http://localhost:3000'))
